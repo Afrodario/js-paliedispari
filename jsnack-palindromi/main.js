@@ -29,4 +29,4 @@ function verificatorePalindromi(parolaScelta) {
     return palindromo;
 }
 
-verificatorePalindromi(prompt("Digita una parola."));
+verificatorePalindromi(prompt("Digita una parola.").toLowerCase());
